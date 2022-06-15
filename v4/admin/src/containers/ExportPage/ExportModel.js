@@ -24,7 +24,7 @@ const ExportModel = ({model}) => {
     download(data)
   }
   return (
-    <Box paddingLeft={8} paddingRight={8}>
+    <Box paddingLeft={9} paddingRight={9}>
       <Box padding={4} margin={4} shadow="filterShadow" hasRadius background="neutral0">
         <Grid gap={4}>
           <GridItem col={8}>
