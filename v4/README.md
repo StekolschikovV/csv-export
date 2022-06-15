@@ -2,6 +2,19 @@
 
 Working on Strapi version: 4
 
+## Demo
+
+```youtube-embed
+{
+   "width": "560",
+   "height": "315",
+   "src": "https://www.youtube.com/embed/pnbbesqGfmw",
+   "title": "Strapi plugin csv-export",
+   "frameborder": "0",
+   "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+   "allowfullscreen": true
+}
+```
 ## First Setup
 
 1. Clone the plugin into your Strapi project
