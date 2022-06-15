@@ -25,7 +25,7 @@ const ExportPage = () => {
     <div>
       <BaseHeaderLayout title="Export Content" subtitle="Export content into CSV format" as="h2" />
       <Stack size={4} padding={2}>
-        <Box key="title" paddingLeft={8} paddingRight={8}>
+        <Box key="title" paddingLeft={9} paddingRight={9}>
           <Typography variant="beta">Content Types</Typography>
         </Box>
         {
