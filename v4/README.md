@@ -3,18 +3,8 @@
 Working on Strapi version: 4
 
 ## Demo
+[![EStrapi plugin csv-export](https://free-png.ru/wp-content/uploads/2020/07/logo-you-tube-2-1.png)](https://www.youtube.com/watch?v=pnbbesqGfmw "Strapi plugin csv-export")
 
-```youtube-embed
-{
-   "width": "560",
-   "height": "315",
-   "src": "https://www.youtube.com/embed/pnbbesqGfmw",
-   "title": "Strapi plugin csv-export",
-   "frameborder": "0",
-   "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
-   "allowfullscreen": true
-}
-```
 ## First Setup
 
 1. Clone the plugin into your Strapi project
