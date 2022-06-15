@@ -1,0 +1,42 @@
+{
+  "name": "csv-export",
+  "version": "1.0.0",
+  "description": "This is a plugin for CSV export.",
+  "strapi": {
+    "displayName": "CSV Export",
+    "name": "csv-export",
+    "icon": "plug",
+    "description": "Export and CSV content",
+    "kind": "plugin"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "pluralize": "^8.0.0"
+  },
+  "author": {
+    "name": "stekolschikov",
+    "email": "v.a.stekolschikov@gmail.com",
+    "url": "https://stekolschikov.com/"
+  },
+  "maintainers": [
+    {
+      "name": "stekolschikov",
+      "email": "v.a.stekolschikov@gmail.com",
+      "url": "https://stekolschikov.com/"
+    }
+  ],
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-jest": "^25.4.0",
+    "jest": "^25.4.0"
+  }
+}
