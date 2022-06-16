@@ -31,13 +31,13 @@ clone the plugin code into a folder and skip the prefix
  git clone https://github.com/StekolschikovV/csv-export.git csv-export-all-v && cd csv-export-all-v && mv v3 ../csv-export && cd ../ && rm -fr csv-export-all-v
 ```
 
-install dependencies
+### 2. Install dependencies
 
 ```bash
 cd csv-export && yarn install
 ```
 
-### 2. Build the plugin
+### 3. Build the plugin
 
 ```bash
 # back to project root and build the plugin
@@ -46,7 +46,7 @@ yarn build
 yarn develop
 ```
 
-### 3. Set permissions
+### 4. Set permissions
 
 Go to settings -> users-permissions -> APPLICATION and select find
 
