@@ -13,13 +13,13 @@ Working on Strapi (version 3)
 cd plugins
 ```
 
-### create plugins folder if not exists
+create plugins folder if not exists
 
 ```bash
 mkdir plugins
 ```
 
-### go to plugins folder
+go to plugins folder
 
 ```bash
 cd plugins
