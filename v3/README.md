@@ -37,7 +37,7 @@ install dependencies
 cd csv-export && yarn install
 ```
 
-2. Build the plugin
+### 2. Build the plugin
 
 ```bash
 # back to project root and build the plugin
@@ -46,7 +46,7 @@ yarn build
 yarn develop
 ```
 
-### 2. Set permissions
+### 3. Set permissions
 
 Go to settings -> users-permissions -> APPLICATION and select find
 
