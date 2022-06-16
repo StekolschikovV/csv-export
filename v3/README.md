@@ -9,10 +9,6 @@ Working on Strapi (version 3)
 
 ### 1. Clone the plugin into your Strapi project
 
-```bash
-cd plugins
-```
-
 create plugins folder if not exists
 
 ```bash
