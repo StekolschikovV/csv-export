@@ -8,35 +8,37 @@ Working on Strapi (version 4)
 
 ## First Setup
 
-1. Clone the plugin into your Strapi project
+### 1. Clone the plugin into your Strapi project
 
 ```bash
 cd /<path-to-your-strapi-project>/src
 ```
 
-# create plugins folder if not exists
+create plugins folder if not exists
 
-# mkdir plugins
+```bash
+mkdir plugins
+```
 
-# go to plugins folder
+go to plugins folder
 
 ```bash
 cd plugins
 ```
 
-# clone the plugin code into a folder and skip the prefix
+clone the plugin code into a folder and skip the prefix
 
 ```bash
 git clone https://github.com/StekolschikovV/csv-export.git csv-export-all-v && cd csv-export-all-v && mv v4 ../csv-export && cd ../ && rm -fr csv-export-all-v
 ```
 
-# install dependencies
+### 2. Install dependencies
 
 ```bash
 cd csv-export && yarn install
 ```
 
-2. Enable the plugin in `<root>/config/plugins.js` .
+### 3. Enable the plugin in `<root>/config/plugins.js` .
 
 ```javascript
 module.exports = {
@@ -49,7 +51,7 @@ module.exports = {
 };
 ```
 
-3. Build the plugin
+### 4. Build the plugin
 
 ```bash
 # back to project root and build the plugin
