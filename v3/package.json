@@ -8,7 +8,8 @@
     "description": "Export and CSV content"
   },
   "dependencies": {
-    "@types/react": "^18.0.12"
+    "@types/react": "^18.0.12",
+    "file-saver": "^2.0.5"
   },
   "author": {
     "name": "A Strapi developer",
