@@ -1,0 +1,89 @@
+
+.export .header-title p{
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: normal;
+  color: #787e8f;
+}
+
+.export button {
+  align-items: center;
+  background-color: rgb(0, 126, 255);
+  border-bottom-color: rgb(0, 126, 255);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(0, 126, 255);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgb(0, 126, 255);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: rgb(0, 126, 255);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  /*display: flex;*/
+  font-family: Lato;
+  font-size: 13px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 600;
+  height: 30px;
+  justify-content: center;
+  letter-spacing: normal;
+  line-height: 19.5px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 0px;
+  margin-top: 0px;
+  max-width: 100%;
+  outline-color: rgb(255, 255, 255);
+  outline-style: none;
+  outline-width: 0px;
+  overflow-x: hidden;
+  overflow-y :hidden;
+  padding-bottom: 0px;
+  padding-left: 15px !important;;
+  padding-right: 15px !important;
+  padding-top: 0px;
+  text-align: center;
+  text-indent: 0px;
+  text-overflow: ellipsis;
+  text-rendering: auto;
+  text-shadow: none;
+  text-size-adjust: 100%;
+  text-transform: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  word-spacing: 0px;
+  writing-mode: horizontal-tb;
+}
+
+.export .model-table {
+  background: white;
+}
+
+.export .row-title {
+  align-items: center;
+  display: flex;
+}

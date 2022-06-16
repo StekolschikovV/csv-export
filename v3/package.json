@@ -1,0 +1,30 @@
+{
+  "name": "strapi-plugin-export-csv-plugin",
+  "version": "0.0.0",
+  "description": "This is a plugin for CSV export.",
+  "strapi": {
+    "name": "Export CSV",
+    "icon": "arrow-down",
+    "description": "Export and CSV content"
+  },
+  "dependencies": {
+    "@types/react": "^18.0.12"
+  },
+  "author": {
+    "name": "A Strapi developer",
+    "email": "",
+    "url": ""
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
