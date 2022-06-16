@@ -2,8 +2,9 @@
 
 Working on Strapi (version 3)
 
-<!-- ## Demo
-[![EStrapi plugin csv-export](https://free-png.ru/wp-content/uploads/2020/07/logo-you-tube-2-1.png)](https://www.youtube.com/watch?v=pnbbesqGfmw "Strapi plugin csv-export") -->
+## Demo
+
+[![EStrapi plugin csv-export](https://free-png.ru/wp-content/uploads/2020/07/logo-you-tube-2-1.png)](https://www.youtube.com/watch?v=VGVFZkDd2lA "Strapi plugin csv-export")
 
 ## First Setup
 
