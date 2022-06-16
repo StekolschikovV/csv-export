@@ -7,7 +7,7 @@ Working on Strapi (version 3)
 
 ## First Setup
 
-1. Clone the plugin into your Strapi project
+### 1. Clone the plugin into your Strapi project
 
 ```bash
 cd plugins
@@ -25,13 +25,13 @@ go to plugins folder
 cd plugins
 ```
 
-# clone the plugin code into a folder and skip the prefix
+clone the plugin code into a folder and skip the prefix
 
 ```bash
  git clone https://github.com/StekolschikovV/csv-export.git csv-export-all-v && cd csv-export-all-v && mv v3 ../csv-export && cd ../ && rm -fr csv-export-all-v
 ```
 
-# install dependencies
+install dependencies
 
 ```bash
 cd csv-export && yarn install
@@ -46,22 +46,11 @@ yarn build
 yarn develop
 ```
 
-2. Set permissions
+### 2. Set permissions
 
 Go to settings -> users-permissions -> APPLICATION and select find
+
 Go to settings -> users-permissions -> CONTENT-TYPE-BUILDER -> CONTENTTYPES and select getcontenttypes
-
-Note:
-
-> it's important to clone the repo into a target folder named `csv-export`, the prefix has to be omitted.
-
-## Plugin development
-
-```bash
-yarn develop --watch-admin
-```
-
-Running at http://localhost:8080/
 
 ## Features
 
