@@ -1,14 +1,3 @@
-mkdir plugins
-cd plugins
-
-git clone https://github.com/StekolschikovV/csv-export.git csv-export-all-v && cd csv-export-all-v && mv v3 ../csv-export && cd ../ && rm -fr csv-export-all-v
-cd csv-export && yarn install
-
-npm run build
-
-settings -> users-permissions -> APPLICATION ---- find
-settings -> users-permissions -> CONTENT-TYPE-BUILDER -> CONTENTTYPES ---- getcontenttypes
-
 # Strapi plugin csv-export
 
 Working on Strapi (version 3)
@@ -26,7 +15,9 @@ cd plugins
 
 # create plugins folder if not exists
 
-# mkdir plugins
+```bash
+mkdir plugins
+```
 
 # go to plugins folder
 
