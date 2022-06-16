@@ -4,7 +4,7 @@ module.exports = [
     path: '/import',
     handler: 'CSVExportController.importContent',
     config: {
-      policies: [],
+      policies: ['admin::isAuthenticatedAdmin']
     },
   },
   {
@@ -12,7 +12,7 @@ module.exports = [
     path: '/delete-all',
     handler: 'CSVExportController.deleteAllContent',
     config: {
-      policies: [],
+      policies: ['admin::isAuthenticatedAdmin']
     },
   },
   {
@@ -20,7 +20,7 @@ module.exports = [
     path: '/fetch-content',
     handler: 'CSVExportController.getContentByType',
     config: {
-      policies: [],
+      policies: ['admin::isAuthenticatedAdmin']
     }
   }
 ];
