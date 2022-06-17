@@ -8,7 +8,7 @@ export const getModels = () => {
   }).then((response) => {
     return filter(response.data, (model) => !model.plugin)
   }).catch(() => {
-    return [];
+    return false;
   });
 };
 
