@@ -45,7 +45,7 @@ module.exports = {
   // ...
   "csv-export": {
     enabled: true,
-    resolve: "./plugins/csv-export", // path to plugin folder
+    resolve: "./src/plugins/csv-export", // path to plugin folder
   },
   // ...
 };
