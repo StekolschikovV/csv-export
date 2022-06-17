@@ -9,6 +9,10 @@
     "description": "Export and CSV content",
     "kind": "plugin"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StekolschikovV/csv-export.git"
+  },
   "scripts": {
     "test": "jest"
   },
